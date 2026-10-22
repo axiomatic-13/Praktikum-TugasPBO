@@ -14,28 +14,23 @@ public class GajiPegawai {
     String alamat;
     String jabatan;
 
-    // Komponen Gaji
-    double p1; // Gaji Pokok
-    double p2; // Tunjangan Jabatan
-    double p3; // Tunjangan Istri
-    double p4; // Tunjangan Anak
+    double p1; 
+    double p2; 
+    double p3; 
+    double p4; 
 
-    // Method hitung Total Gaji 
     public double hitungTotalGaji() {
         return p1 + p2 + p3 + p4;
     }
 
-    // hitung Pajak Penghasilan 
     public double hitungPajak() {
         return 0.10 * (p1 + p2 + p4);
     }
 
-    // hitung Gaji Bersih (Total Gaji - Pajak Penghasilan)
     public double hitungGajiBersih() {
         return hitungTotalGaji() - hitungPajak();
     }
 
-    // menampilkan gaji
     public void tampilkanSlipGaji() {
         System.out.println("SLIP GAJI PEGAWAI");
         System.out.println("Nomor Induk Karyawan : " + nik);

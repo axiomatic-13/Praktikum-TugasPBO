@@ -19,8 +19,8 @@ public class MainGaji {
         System.out.println("INPUT DATA GAJI PEGAWAI");
         
         
-        peg.nik = "552012502";
-        peg.nama = "Mega Juliana";
+        peg.nik = "5520125018";
+        peg.nama = "M FADLY RACHMAN";
         peg.alamat = "Cianjur";
         
         System.out.print("Masukkan Jabatan           : ");

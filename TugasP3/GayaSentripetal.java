@@ -9,11 +9,11 @@ package TugasP3;
  * @author ThinkPad
  */
 public class GayaSentripetal {
-    double m; // Massa (M)
-    double v; // Kecepatan (V)
-    double r; // Jari-jari (r)
+    double m; 
+    double v; 
+    double r;
 
-    // hitung Gaya Sentripetal: Fc = (M * V^2) / r
+    // Fc = (M * V^2) / r
     public double hitungGayaSentripetal() {
         return (m * (v * v)) / r;
     }
